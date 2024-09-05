@@ -2,7 +2,7 @@
     {
         "id": 9,
         "quantity": 0,
-        "imageSrc":"src/images/refri-1.png",
+        "imageSrc":"/images/refri-1.png",
         "imageAlt":"Coca Cola",
         "productName":"Coca Cola Lata 360ml",
         "paragraphPrice": 7.90,                
@@ -12,7 +12,7 @@
     {
         "id": 10,
         "quantity": 0,
-        "imageSrc":"src/images/refri-2.png",
+        "imageSrc":"/images/refri-2.png",
         "imageAlt":"Guaraná",
         "productName":"Guaraná Antártica Lata 360ml",
         "paragraphPrice": 7.90,                
