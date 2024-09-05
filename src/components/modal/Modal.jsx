@@ -7,7 +7,8 @@ const Modal = ({ isOpen, setModalClosed }) => {
   const { products } = useSelector((rootReducer) => rootReducer.cartReducer);
 
   const productsTotalPrice = useSelector(selectProductsTotalPrice);
-
+  const totalPrice = productsTotalPrice.toLocaleString("pt-br", { minimumFractionDigits: 2, style: "currency", currency: "BRL", })
+  
   //pegando o endereço
   const [ addressValue, setAddressValue ] = useState("")
   const handleChange = (e) => {
@@ -26,7 +27,7 @@ const Modal = ({ isOpen, setModalClosed }) => {
     const phone = "5511970601261"
 
     window.open(
-      `https://wa.me/${phone}?text=${message}%0ATotal do Pedido: R$${productsTotalPrice}%0AEndereço de entrega: ${addressValue}`,
+      `https://wa.me/${phone}?text=${message}%0ATotal do Pedido: ${totalPrice}%0AEndereço de entrega: ${addressValue}`,
       "_blank"
     );
   }

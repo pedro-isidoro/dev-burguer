@@ -52,7 +52,7 @@ export default function MainSection() {
                       data-price={product.buttonDataPrice}
                       onClick={() => handleProductClick(product)}
                     >
-                      <i className="fa fa-cart-plus text-sm md:text-lg text-white"></i>
+                      <i className="fa fa-cart-plus text-sm text-white"></i>
                     </button>
                   </div>
                 </div>
@@ -92,7 +92,7 @@ export default function MainSection() {
                       data-price={product.buttonDataPrice}
                       onClick={() => handleProductClick(product)}
                     >
-                      <i className="fa fa-cart-plus text-sm md:text-lg text-white"></i>
+                      <i className="fa fa-cart-plus text-sm text-white"></i>
                     </button>
                   </div>
                 </div>
