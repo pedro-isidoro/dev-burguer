@@ -1,0 +1,90 @@
+[
+    {
+        "id": 1,
+        "quantity": 0,
+        "imageSrc":"/src/assets/hamb-1.png",
+        "imageAlt":"Smash Hamburguer",
+        "productName":"Smash Dev burguer",
+        "productDescription":"Pão levinho de fermentação natural da trigou, 160g de carne, queijo prato e maionese da casa.",
+        "paragraphPrice": 18.90,                
+        "buttonDataName":"Smash Hamburguer",
+        "buttonDataPrice":"18.90"  
+    },
+    {
+        "id": 2,
+        "quantity": 0,
+        "imageSrc":"/src/assets/hamb-2.png",
+        "imageAlt":"Cheddar Hamburguer",
+        "productName":"Cheddar Dev burguer",
+        "productDescription":"Pão Brioche de fermentação natural, 2 hamburgueres Blend de 80g de carne, queijo cheddar, bacon e maionese verde da casa.",
+        "paragraphPrice": 26.90,                
+        "buttonDataName":"Cheddar Hamburguer",
+        "buttonDataPrice":"29.90"  
+    },
+    {
+        "id": 3,
+        "quantity": 0,
+        "imageSrc":"/src/assets/hamb-3.png",
+        "imageAlt":"Brioche Hamburguer",
+        "productName":"Brioche Dev burguer",
+        "productDescription":"Pão levinho de fermentação natural da trigou, 160g de carne, queijo prato e maionese da casa.",
+        "paragraphPrice":26.90,                
+        "buttonDataName":"Brioche Hamburguer",
+        "buttonDataPrice":26.90  
+    },
+    {
+        "id": 4,
+        "quantity": 0,
+        "imageSrc":"/src/assets/hamb-4.png",
+        "imageAlt":"Simple Hamburguer",
+        "productName":"Simple Dev burguer",
+        "productDescription":"Pão levinho de fermentação natural da trigou, 160g de carne, queijo prato e maionese da casa.",
+        "paragraphPrice":26.90,                
+        "buttonDataName":"Simple Hamburguer",
+        "buttonDataPrice":26.90  
+    },
+    {
+        "id": 5,
+        "quantity": 0,
+        "imageSrc":"/src/assets/hamb-5.png",
+        "imageAlt":"Habibs Hamburguer",
+        "productName":"Habibs Dev burguer",
+        "productDescription":"Pão levinho de fermentação natural da trigou, 160g de carne, queijo prato e maionese da casa.",
+        "paragraphPrice":26.90,                
+        "buttonDataName":"Habibs Hamburguer",
+        "buttonDataPrice":26.90  
+    },
+    {
+        "id": 6,
+        "quantity": 0,
+        "imageSrc":"/src/assets/hamb-6.png",
+        "imageAlt":"Salad Hamburguer",
+        "productName":"Salad Dev burguer",
+        "productDescription":"Pão levinho de fermentação natural da trigou, 160g de carne, queijo prato e maionese da casa.",
+        "paragraphPrice":26.90,                
+        "buttonDataName":"Salad Hamburguer",
+        "buttonDataPrice":26.90  
+    },
+    {
+        "id": 7,
+        "quantity": 0,
+        "imageSrc":"/src/assets/hamb-7.png",
+        "imageAlt":"Onion Hamburguer",
+        "productName":"Onion Dev burguer",
+        "productDescription":"Pão levinho de fermentação natural da trigou, 160g de carne, queijo prato e maionese da casa.",
+        "paragraphPrice":26.90,                
+        "buttonDataName":"Onion Hamburguer",
+        "buttonDataPrice":26.90  
+    },
+    {
+        "id": 8,
+        "quantity": 0,
+        "imageSrc":"/src/assets/hamb-8.png",
+        "imageAlt":"Siri Hamburguer",
+        "productName":"Siri Dev burguer",
+        "productDescription":"Pão levinho de fermentação natural da trigou, 160g de carne, queijo prato e maionese da casa.",
+        "paragraphPrice":26.90,                
+        "buttonDataName":"Siri Hamburguer",
+        "buttonDataPrice":26.90  
+    }
+]
