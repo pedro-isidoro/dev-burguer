@@ -22,14 +22,14 @@ const Product = ({ index, product }) => {
     toast.info("Item removido!", {
       duration: 2000,
       className:
-        "w-[14rem] h-[1.8rem] pl-[0.5rem] py-1 flex justify-left items-center",
+        "w-[14rem] h-[1.8rem] pl-[0.5rem] py-1 flex justify-center items-justify-center",
     });
   }
   function removeNotify() {
     toast.error("Item removido!", {
       duration: 2000,
       className:
-        "w-[14rem] h-[1.8rem] pl-[0.5rem] py-1 flex justify-left items-center",
+        "w-[14rem] h-[1.8rem] pl-[0.5rem] py-1 flex justify-center items-center",
     });
   }
   return (

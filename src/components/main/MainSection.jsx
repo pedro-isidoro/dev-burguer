@@ -8,7 +8,7 @@ export function notify() {
   toast.success("Adicionado ao carrinho!", {
     duration: 2000,
     className:
-      "w-[14rem] h-[1.8rem] pl-[0.5rem] py-1 flex justify-left items-center",
+      "w-[14rem] h-[1.8rem] pl-[0.5rem] py-1 flex justify-center items-center",
   });
 }
 
@@ -21,7 +21,12 @@ export default function MainSection() {
 
   return (
     <main>
-      <Toaster position="top-right" expand={false} richColors className="flex justify-end" />
+      <Toaster
+        position="top-right"
+        expand={false}
+        richColors
+        className="flex justify-end"
+      />
       <h2 className="text-2xl md:text-3xl font-bold text-center mt-9 mb-6">
         Conheça nosso Menu
       </h2>
